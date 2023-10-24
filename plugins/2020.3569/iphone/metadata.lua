@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDVungleAdapter', },
-		frameworks = { 'VungleAdsSDK', },
+		staticLibs = { 'APDVungleAdapter', 'VungleAdsSDK' },
+		frameworks = { },
 		frameworksOptional = {},
 	},
 }
