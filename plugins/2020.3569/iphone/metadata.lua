@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDVungleAdapter', 'VungleAdsSDK' },
-		frameworks = { },
+		staticLibs = { 'APDSmaatoAdapter', },
+		frameworks = { 'OMSDK_Smaato', 'SmaatoSDKBanner', 'SmaatoSDKCore', 'SmaatoSDKInterstitial', 'SmaatoSDKOpenMeasurement', 'SmaatoSDKRewardedAds', 'SmaatoSDKRichMedia', 'SmaatoSDKVideo', },
 		frameworksOptional = {},
 	},
 }
